@@ -15,10 +15,6 @@ public class SringbootApplication {
 		SpringApplication.run(SringbootApplication.class, args);
 	}
 
-	@GetMapping("/")
-	public List<String> hello() {
-		return List.of("Hello", "World");
-	}
 
 
 

@@ -1,0 +1,6 @@
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:5432/test
+    username: postgres
+    password: ariorebueltogananciadepescadores
+    pool-size: 30
